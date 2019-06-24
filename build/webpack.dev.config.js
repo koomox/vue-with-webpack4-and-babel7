@@ -10,6 +10,10 @@ const BUILD_PATH = path.resolve(ROOT_PATH, "../dist");
 
 const ASSET_PATH = path.resolve(__dirname, "../dist");
 
+function resolve(dir) {
+  return path.join(__dirname, "..", dir);
+}
+
 module.exports = {
   mode: "development",
   entry: {
@@ -63,5 +67,11 @@ module.exports = {
       template: path.resolve(__dirname, "../src/index.html"),
       inject: true
     })
-  ]
+  ],
+  resolve: {
+    alias: {
+      vue: "vue/dist/vue.js",
+      "@": resolve("src")
+    }
+  }
 };
