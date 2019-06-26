@@ -6,6 +6,12 @@ A Vue Project with Webpack 4 and Babel 7
 git clone https://github.com/koomox/vue-with-webpack4-and-babel7.git
 ```
 
+install yarn
+
+```sh
+curl -o- -L https://yarnpkg.com/install.sh | bash
+```
+
 update Dependencies
 
 ```sh
@@ -22,6 +28,12 @@ yarn add vue vue-router vue-loader vue-template-compiler --dev
 yarn add css-loader vue-style-loader --dev
 yarn add webpack webpack-cli --dev
 yarn add webpack-dev-server webpack-dev-middleware webpack-hot-middleware --dev
+```
+
+install express.js
+
+```sh
+yarn add express --dev
 ```
 
 ### 依赖
