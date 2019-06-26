@@ -2,7 +2,7 @@
   "name": "vue-with-webpack4-and-babel7",
   "version": "1.0.0",
   "description": "A Vue.js project with Webpack 4 and Babel 7",
-  "main": "index.js",
+  "main": "src/main.js",
   "author": "koomox",
   "license": "GPL",
   "scripts": {
