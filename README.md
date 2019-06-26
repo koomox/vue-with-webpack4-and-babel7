@@ -30,6 +30,12 @@ yarn add webpack webpack-cli --dev
 yarn add webpack-dev-server webpack-dev-middleware webpack-hot-middleware --dev
 ```
 
+install js-cookie
+
+```sh
+yarn add js-cookie
+```
+
 install axios
 
 ```sh
@@ -50,6 +56,7 @@ yarn global add vue-cli
 
 ### 依赖
 
+js-cookie: [Link](https://github.com/js-cookie/js-cookie)  
 axios: [Link](https://github.com/axios/axios)  
 Node.js: [Link](https://nodejs.org/en/download/)  
 Express.js: [Link](https://expressjs.com/en/starter/installing.html)  
