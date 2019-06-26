@@ -18,7 +18,7 @@ module.exports = {
   mode: "development",
   entry: {
     app: [
-      "./src/index.js",
+      "./src/main.js",
       "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000"
     ]
   },
