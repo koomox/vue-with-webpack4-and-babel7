@@ -12,6 +12,18 @@ update Dependencies
 yarn upgrade
 ```
 
+install Dependencies
+
+```sh
+yarn init
+yarn add @babel/cli @babel/core @babel/preset-env babel-loader --dev
+yarn add clean-webpack-plugin html-webpack-plugin --dev
+yarn add vue vue-router vue-loader vue-template-compiler --dev
+yarn add css-loader vue-style-loader --dev
+yarn add webpack webpack-cli --dev
+yarn add webpack-dev-server webpack-dev-middleware webpack-hot-middleware --dev
+```
+
 ### 依赖
 
 Node.js: [Link](https://nodejs.org/en/download/)  
