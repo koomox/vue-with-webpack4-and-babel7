@@ -30,14 +30,27 @@ yarn add webpack webpack-cli --dev
 yarn add webpack-dev-server webpack-dev-middleware webpack-hot-middleware --dev
 ```
 
+install axios
+
+```sh
+yarn add axios
+```
+
 install express.js
 
 ```sh
 yarn add express --dev
 ```
 
+install global vue-cli
+
+```sh
+yarn global add vue-cli
+```
+
 ### 依赖
 
+axios: [Link](https://github.com/axios/axios)  
 Node.js: [Link](https://nodejs.org/en/download/)  
 Express.js: [Link](https://expressjs.com/en/starter/installing.html)  
 Yarn: 项目使用 yarn 管理 [Link](https://github.com/yarnpkg/yarn/)  
