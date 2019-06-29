@@ -54,12 +54,20 @@ install global vue-cli
 yarn global add vue-cli
 ```
 
+install element-ui [Link](https://element.eleme.io/) [Github](https://github.com/ElemeFE/element)
+
+```sh
+yarn add element-ui
+```
+
 ### 依赖
 
 js-cookie: [Link](https://github.com/js-cookie/js-cookie)  
 axios: [Link](https://github.com/axios/axios)  
 Node.js: [Link](https://nodejs.org/en/download/)  
 Express.js: [Link](https://expressjs.com/en/starter/installing.html)  
+element-ui: [Link](https://element.eleme.io/)  
+Chart.js: [Link](https://www.chartjs.org/) [Github](https://github.com/chartjs/Chart.js)  
 Yarn: 项目使用 yarn 管理 [Link](https://github.com/yarnpkg/yarn/)  
 Webpack: 使用 webpack 构建 [Link](https://webpack.js.org/)  
 Vue.js: [Link](https://vuejs.org/v2/guide/installation.html#NPM)  
