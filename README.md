@@ -54,10 +54,29 @@ install global vue-cli
 yarn global add vue-cli
 ```
 
+### element-ui
+
 install element-ui [Link](https://element.eleme.io/) [Github](https://github.com/ElemeFE/element)
 
 ```sh
 yarn add element-ui
+yarn add url-loader file-loader --dev
+```
+
+use element-ui, add content `webpack.config.js`
+
+```json
+{
+  "test": /\.(png|jpg|jpeg|gif|eot|ttf|woff|woff2|svg|svgz)(\?.+)?$/,
+  "use": [
+    {
+      "loader": "url-loader",
+      "options": {
+        "limit": 10000
+      }
+    }
+  ]
+}
 ```
 
 ### 依赖
