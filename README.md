@@ -65,7 +65,7 @@ yarn add url-loader file-loader --dev
 
 use element-ui, add content `webpack.config.js`
 
-```json
+```js
 {
   "test": /\.(png|jpg|jpeg|gif|eot|ttf|woff|woff2|svg|svgz)(\?.+)?$/,
   "use": [
@@ -77,6 +77,13 @@ use element-ui, add content `webpack.config.js`
     }
   ]
 }
+```
+
+`App.vue`
+
+```js
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
 ```
 
 ### 依赖
