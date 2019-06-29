@@ -4,12 +4,6 @@ const webpack = require("webpack"); // to access built-in plugins
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
 const path = require("path");
 
-const ROOT_PATH = path.resolve(__dirname);
-const APP_PATH = path.resolve(ROOT_PATH, "../src");
-const BUILD_PATH = path.resolve(ROOT_PATH, "../dist");
-
-const ASSET_PATH = path.resolve(__dirname, "../dist");
-
 function resolve(dir) {
   return path.join(__dirname, "..", dir);
 }
@@ -51,13 +45,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"]
+        use: ["vue-style-loader", "css-loader"]
       }
     ]
   },
   plugins: [
     new webpack.ProgressPlugin(),
-    // new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new VueLoaderPlugin(),
     new CleanWebpackPlugin(),
@@ -69,7 +62,7 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: [".js", ".vue"],
+    extensions: [".js", ".vue", ".json"],
     alias: {
       vue$: "vue/dist/vue.js",
       "@": resolve("src")
