@@ -1,8 +1,8 @@
 {
-  "name": "vue-with-webpack4-and-babel7",
+  "name": "react-app",
   "version": "1.0.0",
-  "description": "A Vue.js project with Webpack 4 and Babel 7",
-  "main": "src/main.js",
+  "description": "A React Project with Webpack 4 and Babel 7",
+  "main": "src/index.jsx",
   "author": "koomox",
   "license": "GPL",
   "scripts": {
@@ -11,23 +11,26 @@
     "build": "npx webpack --config webpack.config.js"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1",
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^2.1.1",
-    "express": "^4.17.1",
-    "html-webpack-plugin": "^3.2.0",
-    "vue": "^2.6.10",
-    "vue-loader": "^15.7.0",
-    "vue-router": "^3.0.6",
-    "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-middleware": "^3.7.0",
-    "webpack-dev-server": "^3.6.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-middleware": "^4.0.2",
+    "webpack-dev-server": "^3.11.0",
     "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
